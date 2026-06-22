@@ -1,1 +1,1 @@
-# pathbridge-ai-showcase
+# pathbridge-ai-career-intelligence

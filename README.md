@@ -1,12 +1,25 @@
 # PathBridge AI – Multi-Agent Career Intelligence System
 
+Project Type: Multi-Agent AI Application
+
+Status: Demonstration Project
+
+Technology Focus: Agentic AI, LangGraph, Azure OpenAI, Streamlit
+
 ## Overview
 
-PathBridge AI is an intelligent multi-agent career intelligence platform designed to support professionals in discovering relevant opportunities, evaluating profile-job alignment, and generating tailored career assets.
+PathBridge AI is an Agentic AI platform that helps professionals evaluate career opportunities, assess profile-job alignment, identify skill gaps, and generate actionable career recommendations.
 
-The system leverages a LangGraph-based orchestration framework where specialized AI agents collaborate to analyze user profiles, search job opportunities, optimize CVs, generate cover letters, and identify skill gaps.
+The system leverages a multi-agent architecture built with LangGraph and Azure OpenAI, where specialized AI agents collaborate to perform job discovery, evaluation, coaching, and career tracking.
 
-This project was developed as part of an Agentic AI Systems program and demonstrates practical application of multi-agent architectures, workflow orchestration, semantic search, and LLM-powered decision support.
+This project demonstrates practical application of:
+
+- Agentic AI
+- Multi-Agent Systems
+- LangGraph Orchestration
+- Azure OpenAI
+- LLM-powered Decision Support
+- Streamlit Application Development
 
 ---
 
@@ -74,7 +87,15 @@ PathBridge AI addresses this challenge through a coordinated multi-agent workflo
 
 ## System Architecture
 
-Architecture diagrams and workflow illustrations are provided in the Images section below.
+![Architecture](images/architecture.png)
+
+## LangGraph Workflow
+
+![Workflow](images/graph.png)
+
+## System Behaviour
+
+![System Behaviour](images/System%20Behavior.png)
 
 ---
 
@@ -92,12 +113,24 @@ Architecture diagrams and workflow illustrations are provided in the Images sect
 
 ## My Contributions
 
-* Multi-agent workflow design
-* LangGraph orchestration architecture
-* State schema design
-* Evaluation framework development
-* Prompt engineering and agent interaction design
-* Testing and workflow validation
+As a contributor to the PathBridge AI project, I:
+
+- Designed and developed key components of the multi-agent architecture
+- Contributed to LangGraph workflow orchestration and agent coordination
+- Worked on Azure OpenAI integration, prompt engineering, and workflow design
+- Developed evaluation and skill-gap analysis components
+- Participated in testing, debugging, and workflow optimization
+- Contributed to Streamlit dashboard development and project documentation
+
+---
+
+## Key Outcomes
+
+- Designed and implemented a multi-agent career intelligence platform
+- Developed specialized AI agents for job discovery, evaluation, coaching, and tracking
+- Built orchestration workflows using LangGraph and Azure OpenAI
+- Created an interactive Streamlit dashboard for user interaction
+- Applied skill-gap analysis and profile-job matching techniques
 
 ---
 
@@ -108,6 +141,12 @@ Architecture diagrams and workflow illustrations are provided in the Images sect
 * Enhanced job-provider integrations
 * Advanced analytics and reporting
 * User feedback loops
+
+---
+
+## Skills Demonstrated
+
+Agentic AI • Multi-Agent Systems • LangGraph • Azure OpenAI • Python • Prompt Engineering • LLM Applications • Streamlit • Workflow Orchestration • Career Intelligence Systems
 
 ---
 

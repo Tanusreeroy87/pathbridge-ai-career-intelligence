@@ -4,59 +4,91 @@
 
 ## Overview
 
-PathBridge AI is a multi-agent career intelligence platform that helps professionals evaluate job opportunities, identify skill gaps, optimize career readiness, and generate personalized career recommendations.
+PathBridge AI is an AI-powered multi-agent career intelligence platform designed to help job seekers evaluate opportunities, identify skill gaps, improve career readiness, and receive personalized career guidance.
 
-Built using LangGraph, Azure OpenAI, Python, and Streamlit, the system demonstrates how specialized AI agents can collaborate through workflow orchestration to solve complex real-world career planning challenges.
+Built using LangGraph, Azure OpenAI, Python, and Streamlit, the platform demonstrates how specialized AI agents can collaborate through orchestrated workflows to support complex career decision-making processes.
+
+The system combines profile understanding, job discovery, evaluation, and coaching capabilities into a unified end-to-end experience.
 
 **Project Type:** Portfolio Showcase Project
-**Technology Focus:** Agentic AI, Multi-Agent Systems, LangGraph, Azure OpenAI, Streamlit
+**Domain:** Career Intelligence & Decision Support
+**Technology Focus:** Agentic AI, Multi-Agent Systems, Workflow Orchestration, Generative AI
 
 ---
 
 ## Key Features
 
-### Career Profile Analysis
+### Career Profile Understanding
 
-* Extracts and structures candidate skills, experience, and career goals
-* Builds a comprehensive professional profile
+* Extracts candidate skills, experience, education, and career goals
+* Creates structured professional profiles
+* Supports personalized career planning workflows
 
-### Intelligent Job Matching
+### Intelligent Job Discovery
 
 * Retrieves relevant job opportunities
-* Performs relevance scoring and ranking
-* Identifies high-fit positions
+* Ranks positions based on candidate-job fit
+* Highlights high-potential career opportunities
 
-### Skill Gap Assessment
+### Skill Gap Analysis
 
 * Compares candidate profiles against job requirements
-* Highlights missing skills and competency gaps
-* Provides actionable recommendations
+* Identifies missing skills and competency gaps
+* Generates targeted improvement recommendations
 
-### Career Coaching Support
+### Career Coaching
 
-* Generates tailored CV recommendations
-* Assists with interview preparation
-* Produces personalized career guidance
+* Provides CV optimization recommendations
+* Supports interview preparation
+* Generates personalized career guidance
 
-### Multi-Agent Orchestration
+### Multi-Agent Workflow Orchestration
 
-* Coordinates multiple specialized AI agents
-* Manages workflow execution through LangGraph
-* Enables scalable decision-support pipelines
+* Coordinates specialized AI agents
+* Manages workflow execution using LangGraph
+* Enables scalable and explainable decision-support pipelines
 
 ---
 
 ## Agent Architecture
 
-The platform consists of specialized agents working collaboratively:
+The platform is composed of specialized AI agents collaborating through a centralized orchestration layer.
 
-| Agent              | Responsibility                         |
-| ------------------ | -------------------------------------- |
-| Navigator Agent    | Profile understanding and goal mapping |
-| Scout Agent        | Job discovery and opportunity ranking  |
-| Evaluator Agent    | Match scoring and skill-gap analysis   |
-| Coach Agent        | Career recommendations and preparation |
-| Orchestrator Agent | Workflow coordination and routing      |
+| Agent              | Responsibility                                             |
+| ------------------ | ---------------------------------------------------------- |
+| Navigator Agent    | Profile analysis and career goal understanding             |
+| Scout Agent        | Job discovery, retrieval, and ranking                      |
+| Evaluator Agent    | Job-fit scoring and skill-gap assessment                   |
+| Coach Agent        | Career guidance, CV improvement, and interview preparation |
+| Orchestrator Agent | Workflow coordination and agent routing                    |
+
+---
+
+## System Architecture
+
+![Workflow](images/graph.png)
+
+---
+
+## System Behaviour
+
+![System Behaviour](images/System%20Behavior.png)
+
+---
+
+## User Interface
+
+### Workflow Dashboard
+
+The workflow dashboard visualizes the execution of the multi-agent pipeline and tracks the progression of candidate evaluation.
+
+![Workflow Dashboard](images/pathbridge_workflow_dashboard.png)
+
+### Evaluation & Career Readiness
+
+The evaluation dashboard presents ATS scoring, job readiness assessment, and candidate-job fit insights.
+
+![Evaluation Dashboard](images/pathbridge_evaluator_dashboard.png)
 
 ---
 
@@ -73,18 +105,6 @@ The platform consists of specialized agents working collaboratively:
 
 ---
 
-## LangGraph Workflow
-
-![Workflow](images/graph.png)
-
----
-
-## System Behaviour
-
-![System Behaviour](images/System%20Behavior.png)
-
----
-
 ## Technical Highlights
 
 * Multi-agent AI architecture
@@ -93,67 +113,61 @@ The platform consists of specialized agents working collaboratively:
 * Azure OpenAI integration
 * Prompt engineering and agent design
 * Structured validation using Pydantic
-* Skill-gap evaluation framework
+* Skill-gap assessment framework
 * Interactive Streamlit dashboard
+* Explainable AI decision-support workflows
+
+---
+
+## Business Value
+
+PathBridge AI demonstrates how agentic AI systems can support career development through intelligent automation.
+
+### Key Outcomes
+
+* Faster discovery of relevant opportunities
+* Improved CV-job alignment
+* Automated skill-gap identification
+* Personalized interview preparation
+* Explainable career recommendations
+* Streamlined career readiness assessment
+
+The project combines workflow orchestration, semantic search, and LLM-powered reasoning into a practical end-to-end career intelligence solution.
 
 ---
 
 ## My Contributions
 
-As part of the PathBridge AI development team, I contributed to:
+As a member of the development team, I contributed to:
 
-* Multi-agent workflow design and orchestration
-* LangGraph implementation and agent coordination
+* Multi-agent workflow design
+* LangGraph implementation and orchestration
 * Azure OpenAI integration
-* Prompt engineering and workflow development
-* Skill-gap analysis framework
+* Prompt engineering and agent development
+* Skill-gap assessment framework
 * Testing, debugging, and optimization
-* Streamlit dashboard development
-* Technical documentation
-
----
-
-## Project Impact
-
-This project demonstrates practical application of Agentic AI principles beyond traditional chatbot systems by combining:
-
-* Multi-agent collaboration
-* Workflow orchestration
-* LLM-powered decision support
-* Career recommendation systems
-* Interactive AI applications
-
-The solution showcases how AI agents can work together to solve complex career intelligence and decision-support challenges.
-
----
-
-## Key Outcomes
-
-* Built a multi-agent career intelligence platform
-* Implemented LangGraph-based orchestration workflows
-* Developed AI-powered job matching capabilities
-* Created skill-gap assessment and recommendation pipelines
-* Designed an interactive Streamlit user experience
-* Applied Agentic AI concepts to a real-world use case
-
----
-
-## Future Enhancements
-
-* Persistent memory and user profiles
-* Workflow monitoring dashboard
-* Expanded job provider integrations
-* Advanced analytics and reporting
-* Continuous feedback loops
+* Streamlit dashboard enhancements
+* Technical documentation and project presentation
 
 ---
 
 ## Skills Demonstrated
 
-Agentic AI • Multi-Agent Systems • LangGraph • Azure OpenAI • Python • Prompt Engineering • LLM Applications • Workflow Orchestration • Streamlit • Career Intelligence Systems
+**Agentic AI • Multi-Agent Systems • LangGraph • Azure OpenAI • Python • Prompt Engineering • Workflow Orchestration • Streamlit • Semantic Search • LLM Applications • Career Intelligence Systems**
+
+---
+
+## Future Enhancements
+
+* Persistent user memory and personalization
+* Enhanced job matching accuracy
+* Additional job board integrations
+* Advanced analytics and reporting
+* Workflow monitoring dashboard
+* Continuous feedback and learning loops
 
 ---
 
 ## Disclaimer
 
-This repository is a portfolio showcase created for demonstration purposes. Certain implementation details, prompts, and production components have been simplified or omitted.
+This repository is a portfolio showcase created for demonstration and educational purposes. Certain implementation details, prompts, datasets, and production-specific components have been simplified or omitted.

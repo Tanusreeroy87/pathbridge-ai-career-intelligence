@@ -1,74 +1,62 @@
 # PathBridge AI – Multi-Agent Career Intelligence System
 
-Project Type: Multi-Agent AI Application
-
-Status: Demonstration Project
-
-Technology Focus: Agentic AI, LangGraph, Azure OpenAI, Streamlit
+![Architecture](images/architecture.png)
 
 ## Overview
 
-PathBridge AI is an Agentic AI platform that helps professionals evaluate career opportunities, assess profile-job alignment, identify skill gaps, and generate actionable career recommendations.
+PathBridge AI is a multi-agent career intelligence platform that helps professionals evaluate job opportunities, identify skill gaps, optimize career readiness, and generate personalized career recommendations.
 
-The system leverages a multi-agent architecture built with LangGraph and Azure OpenAI, where specialized AI agents collaborate to perform job discovery, evaluation, coaching, and career tracking.
+Built using LangGraph, Azure OpenAI, Python, and Streamlit, the system demonstrates how specialized AI agents can collaborate through workflow orchestration to solve complex real-world career planning challenges.
 
-This project demonstrates practical application of:
-
-- Agentic AI
-- Multi-Agent Systems
-- LangGraph Orchestration
-- Azure OpenAI
-- LLM-powered Decision Support
-- Streamlit Application Development
-
----
-
-## Problem Statement
-
-Job seekers often struggle with:
-
-* Finding highly relevant job opportunities
-* Understanding skill gaps
-* Tailoring CVs for specific roles
-* Preparing for interviews efficiently
-
-Traditional job boards provide listings but lack personalized intelligence and guidance.
-
-PathBridge AI addresses this challenge through a coordinated multi-agent workflow that automates career analysis and recommendation processes.
+**Project Type:** Portfolio Showcase Project
+**Technology Focus:** Agentic AI, Multi-Agent Systems, LangGraph, Azure OpenAI, Streamlit
 
 ---
 
 ## Key Features
 
-### Navigator Agent
+### Career Profile Analysis
 
-* Extracts and structures user profile information
-* Identifies goals, skills, and constraints
-* Maps career objectives
+* Extracts and structures candidate skills, experience, and career goals
+* Builds a comprehensive professional profile
 
-### Scout Agent
+### Intelligent Job Matching
 
-* Retrieves jobs from external job sources
-* Performs hybrid ranking and relevance scoring
-* Identifies best-fit opportunities
+* Retrieves relevant job opportunities
+* Performs relevance scoring and ranking
+* Identifies high-fit positions
 
-### Coach Agent
+### Skill Gap Assessment
+
+* Compares candidate profiles against job requirements
+* Highlights missing skills and competency gaps
+* Provides actionable recommendations
+
+### Career Coaching Support
 
 * Generates tailored CV recommendations
-* Produces customized cover letters
-* Creates interview preparation materials
+* Assists with interview preparation
+* Produces personalized career guidance
 
-### Evaluator Agent
+### Multi-Agent Orchestration
 
-* Measures job-profile alignment
-* Performs skill-gap analysis
-* Generates readiness scores and recommendations
+* Coordinates multiple specialized AI agents
+* Manages workflow execution through LangGraph
+* Enables scalable decision-support pipelines
 
-### Orchestrator Agent
+---
 
-* Coordinates agent interactions
-* Controls workflow execution
-* Handles routing and recovery logic
+## Agent Architecture
+
+The platform consists of specialized agents working collaboratively:
+
+| Agent              | Responsibility                         |
+| ------------------ | -------------------------------------- |
+| Navigator Agent    | Profile understanding and goal mapping |
+| Scout Agent        | Job discovery and opportunity ranking  |
+| Evaluator Agent    | Match scoring and skill-gap analysis   |
+| Coach Agent        | Career recommendations and preparation |
+| Orchestrator Agent | Workflow coordination and routing      |
 
 ---
 
@@ -77,21 +65,19 @@ PathBridge AI addresses this challenge through a coordinated multi-agent workflo
 * Python
 * LangGraph
 * Azure OpenAI
-* Pydantic
 * Streamlit
+* Pydantic
 * Semantic Search
 * Vector Similarity Scoring
 * GitHub
 
 ---
 
-## System Architecture
-
-![Architecture](images/architecture.png)
-
 ## LangGraph Workflow
 
 ![Workflow](images/graph.png)
+
+---
 
 ## System Behaviour
 
@@ -101,55 +87,73 @@ PathBridge AI addresses this challenge through a coordinated multi-agent workflo
 
 ## Technical Highlights
 
-* Multi-agent architecture with six specialized agents
-* Shared state management using TypedDict schemas
+* Multi-agent AI architecture
 * LangGraph workflow orchestration
-* Hybrid semantic and heuristic job scoring
-* Structured Pydantic validation
+* Shared state management
+* Azure OpenAI integration
+* Prompt engineering and agent design
+* Structured validation using Pydantic
 * Skill-gap evaluation framework
-* Automated career asset generation
+* Interactive Streamlit dashboard
 
 ---
 
 ## My Contributions
 
-As a contributor to the PathBridge AI project, I:
+As part of the PathBridge AI development team, I contributed to:
 
-- Designed and developed key components of the multi-agent architecture
-- Contributed to LangGraph workflow orchestration and agent coordination
-- Worked on Azure OpenAI integration, prompt engineering, and workflow design
-- Developed evaluation and skill-gap analysis components
-- Participated in testing, debugging, and workflow optimization
-- Contributed to Streamlit dashboard development and project documentation
+* Multi-agent workflow design and orchestration
+* LangGraph implementation and agent coordination
+* Azure OpenAI integration
+* Prompt engineering and workflow development
+* Skill-gap analysis framework
+* Testing, debugging, and optimization
+* Streamlit dashboard development
+* Technical documentation
+
+---
+
+## Project Impact
+
+This project demonstrates practical application of Agentic AI principles beyond traditional chatbot systems by combining:
+
+* Multi-agent collaboration
+* Workflow orchestration
+* LLM-powered decision support
+* Career recommendation systems
+* Interactive AI applications
+
+The solution showcases how AI agents can work together to solve complex career intelligence and decision-support challenges.
 
 ---
 
 ## Key Outcomes
 
-- Designed and implemented a multi-agent career intelligence platform
-- Developed specialized AI agents for job discovery, evaluation, coaching, and tracking
-- Built orchestration workflows using LangGraph and Azure OpenAI
-- Created an interactive Streamlit dashboard for user interaction
-- Applied skill-gap analysis and profile-job matching techniques
+* Built a multi-agent career intelligence platform
+* Implemented LangGraph-based orchestration workflows
+* Developed AI-powered job matching capabilities
+* Created skill-gap assessment and recommendation pipelines
+* Designed an interactive Streamlit user experience
+* Applied Agentic AI concepts to a real-world use case
 
 ---
 
 ## Future Enhancements
 
-* Persistent memory layer
+* Persistent memory and user profiles
 * Workflow monitoring dashboard
-* Enhanced job-provider integrations
+* Expanded job provider integrations
 * Advanced analytics and reporting
-* User feedback loops
+* Continuous feedback loops
 
 ---
 
 ## Skills Demonstrated
 
-Agentic AI • Multi-Agent Systems • LangGraph • Azure OpenAI • Python • Prompt Engineering • LLM Applications • Streamlit • Workflow Orchestration • Career Intelligence Systems
+Agentic AI • Multi-Agent Systems • LangGraph • Azure OpenAI • Python • Prompt Engineering • LLM Applications • Workflow Orchestration • Streamlit • Career Intelligence Systems
 
 ---
 
 ## Disclaimer
 
-This repository is a showcase version created for portfolio and demonstration purposes. Implementation details, proprietary logic, prompts, and production source code are not included.
+This repository is a portfolio showcase created for demonstration purposes. Certain implementation details, prompts, and production components have been simplified or omitted.

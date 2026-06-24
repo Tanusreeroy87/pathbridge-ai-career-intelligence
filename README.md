@@ -1,4 +1,4 @@
-# PathBridge AI – Multi-Agent Career Intelligence System
+# PathBridge AI – Multi-Agent Employment Integration System
 
 ![Architecture](images/architecture.png)
 

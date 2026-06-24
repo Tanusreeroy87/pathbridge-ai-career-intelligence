@@ -138,7 +138,7 @@ The project combines workflow orchestration, semantic search, and LLM-powered re
 
 ## My Contributions
 
-As a member of the development team, I contributed to:
+As a member of the project team, I contributed to:
 
 * Multi-agent workflow design
 * LangGraph implementation and orchestration
@@ -165,9 +165,10 @@ As a member of the development team, I contributed to:
 * Advanced analytics and reporting
 * Workflow monitoring dashboard
 * Continuous feedback and learning loops
+* Production deployment
 
 ---
 
 ## Disclaimer
 
-This repository is a portfolio showcase created for demonstration and educational purposes. Certain implementation details, prompts, datasets, and production-specific components have been simplified or omitted.
+This repository is a showcase version created for portfolio and demonstration purposes. Implementation details, proprietary logic, prompts, and production source code are not included.

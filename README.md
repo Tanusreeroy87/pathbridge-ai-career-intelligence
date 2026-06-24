@@ -1,18 +1,19 @@
 # PathBridge AI – Multi-Agent Employment Integration System
+### AI-powered career intelligence platform for job matching, CV optimization, skill-gap analysis, and career-readiness assessment.
 
 ![Architecture](images/architecture.png)
 
 ## Overview
 
-PathBridge AI is an AI-powered multi-agent career intelligence platform designed to help job seekers evaluate opportunities, identify skill gaps, improve career readiness, and receive personalized career guidance.
+PathBridge AI is an AI-powered multi-agent career intelligence platform designed to help job seekers discover relevant opportunities, evaluate career readiness, identify skill gaps, optimize CVs, and receive personalized career guidance.
 
-Built using LangGraph, Azure OpenAI, Python, and Streamlit, the platform demonstrates how specialized AI agents can collaborate through orchestrated workflows to support complex career decision-making processes.
+Built using LangGraph, Azure OpenAI, Python, Pydantic, and Streamlit, the platform demonstrates how specialized AI agents can collaborate through orchestrated workflows to solve complex career decision-making challenges.
 
-The system combines profile understanding, job discovery, evaluation, and coaching capabilities into a unified end-to-end experience.
+The system combines profile analysis, job matching, CV evaluation, skill-gap assessment, and AI-powered coaching into a unified end-to-end experience.
 
-**Project Type:** Portfolio Showcase Project
-**Domain:** Career Intelligence & Decision Support
-**Technology Focus:** Agentic AI, Multi-Agent Systems, Workflow Orchestration, Generative AI
+**Project Type:** Portfolio Showcase Project  
+**Domain:** Career Intelligence & Decision Support  
+**Technology Focus:** Agentic AI, Multi-Agent Systems, Workflow Orchestration, Generative AI, LLM Applications
 
 ---
 
